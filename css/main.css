@@ -1,0 +1,183 @@
+/* --- Table of Contents
+1. Reset
+2. Universal Items
+3. ...
+4. ...
+--- */
+
+/* --- Reset the browser page --- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Universal Styles --- */
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #455556;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding: 5%;
+  text-decoration: bold;
+  text-shadow: 50px;
+}
+
+h2{
+  font-family: 'Assistant', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0 0 5% 0;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #455556;
+}
+
+h4{
+  font-weight: lighter;
+}
+
+section, footer {
+  padding:10vh 9vw;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.featured {
+  background-color: #27CBC0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.white-boxed {
+  background-color: #FFFFFF;
+  padding: 5%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.fa-bookmark-o{
+  padding: 5%;
+}
+
+/* --- Header --- */
+.top-banner{
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url(../giphy.gif);
+  background-position: bottom;
+  background-size: cover;
+  color: #29C5FF;
+  padding: 50% auto;
+  position: relative;
+}
+
+.top-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-banner header, .top-banner div{
+  position: relative;
+}
+
+.logo{
+  margin: 3% 0;
+  color: #000000;
+  display: block;
+}
+
+.top-banner nav a{
+  color: #000000;
+  font-size: 1.5rem;
+  padding: 5%;
+  text-decoration: none;
+  max-width: 200px;
+}
+
+.top-banner nav a:hover{
+  font-weight: bold;
+}
+
+.top-banner h1{
+  background-color: #000000;
+  padding: 1%;
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.top-banner h2{
+  color: #FFFFFF;
+  text-shadow: 4px 4px #000000;
+}
+
+.top-banner h3{
+  color: #000000;
+}
+
+/* --- About --- */
+
+
+
+/* --- Skills --- */
+.skills {
+  text-align: center;
+}
+
+.col-4 {
+  padding: 2%;
+}
+
+/* --- Experiences --- */
+.experiences {
+  text-align: justify;
+}
+
+.col-1, .col-3, .col-8{
+  padding: 1.5%;
+}
+
+/* --- Map --- */
+
+
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  color: #FFFFFF;}
+
+footer h2{
+  padding: 0 0 1% 0;
+  color: #455556;
+}
+
+footer a{
+  color: #FFFFFF;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer a:hover{
+  font-weight: bold;
+}
