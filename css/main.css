@@ -112,10 +112,12 @@ section, footer {
   padding: 5%;
   text-decoration: none;
   max-width: 200px;
+  transition: all 1s;
 }
 
 .top-banner nav a:hover{
   font-weight: bold;
+  color: #2C3E50;
 }
 
 .top-banner h1{
@@ -193,6 +195,8 @@ footer a:hover{
   nav.header a{
     margin: auto;
     display:block;
+    font-size: 1em;
+    padding: 1%;
   }
 }
 
